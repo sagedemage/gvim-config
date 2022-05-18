@@ -15,7 +15,7 @@ Plug 'preservim/nerdtree'
 call plug#end()
 
 set laststatus=2
-set tabstop=4
+set tabstop=8
 set clipboard=unnamedplus
 
 let g:lightline = {
