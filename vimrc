@@ -3,15 +3,13 @@
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
-" Make sure you use single quotes
-
 " Lightline
 Plug 'itchyny/lightline.vim'
 
 " Nerdtree
 Plug 'preservim/nerdtree'
 
-" Use release branch (recommend)
+" COC - Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Initialize plugin system
@@ -24,21 +22,29 @@ set encoding=utf-8
 " TextEdit might fail if hidden is not set.
 set hidden
 
-" Give more space for displaying messages.
-set cmdheight=2
-
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
 set updatetime=300
 
+" Don't pass messages to |ins-completion-menu|.
+set shortmess+=c
+
+" lightline
 set laststatus=2
+set noshowmode
+
+" 4 spaces for Tabs
 set tabstop=4
+
+" Copy to clipboard
 set clipboard=unnamedplus
 
+" lightline theme
 let g:lightline = {
       \ 'colorscheme': 'Tomorrow_Night_Blue',
       \ }
 
+" nerdtree bindings
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
