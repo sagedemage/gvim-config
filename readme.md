@@ -1,9 +1,6 @@
 # vim-config
 My configuration of vim using the vim plugin manager.
 
-## Screenshot
-![](/screenshot/vim.png)
-
 ## Setup instructions
 
 go to the vim-config folder
