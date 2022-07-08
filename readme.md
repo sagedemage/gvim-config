@@ -19,5 +19,4 @@ cp vimrc ~/.vimrc
 <ol>
   <li> vim-plug: https://github.com/junegunn/vim-plug </li>
   <li> nerdtree: https://github.com/preservim/nerdtree </li>
-  <li> lightline: https://github.com/itchyny/lightline.vim/blob/master/colorscheme.md </li>
 </ol>
