@@ -6,6 +6,9 @@ call plug#begin('~/.vim/plugged')
 " Nerdtree
 Plug 'preservim/nerdtree'
 
+" Auto Pairs
+Plug 'jiangmiao/auto-pairs'
+
 " Initialize plugin system
 call plug#end()
 
