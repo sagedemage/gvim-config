@@ -1,22 +1,34 @@
-" Specify a directory for plugins
-" - For Neovim: stdpath('data') . '/plugged'
-" - Avoid using standard Vim directory names like 'plugin'
-call plug#begin('~/.vim/plugged')
+set nocompatible 
+filetype off
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
 
 " Nerdtree
-Plug 'preservim/nerdtree'
+Plugin 'preservim/nerdtree'
 
 " Auto Pairs
-Plug 'jiangmiao/auto-pairs'
+Plugin 'jiangmiao/auto-pairs'
 
-" Initialize plugin system
-call plug#end()
+" YouCompleteMe 
+Plugin 'ycm-core/YouCompleteMe'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 " 4 spaces for Tabs
 set tabstop=4
 
 " Copy to clipboard
 set clipboard=unnamedplus
+
+" Syntax higlighiting
+syntax on
 
 " nerdtree bindings
 nnoremap <leader>n :NERDTreeFocus<CR>
