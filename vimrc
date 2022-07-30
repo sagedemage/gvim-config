@@ -25,6 +25,9 @@ filetype plugin indent on    " required
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 
+" set the map leader to space
+let mapleader = "\<Space>"
+
 " 4 spaces for Tabs
 set tabstop=4
 
