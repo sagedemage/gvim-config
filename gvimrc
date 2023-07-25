@@ -42,6 +42,6 @@ let g:vim_markdown_follow_anchor = 1
 " - Switch to clipboard register 
 nnoremap <leader>c :set clipboard=unnamedplus<CR>
 
-" - Swicth to unamed register
+" - Switch to unamed register
 nnoremap <leader>u :set clipboard=""<CR>
 
