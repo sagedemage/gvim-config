@@ -27,4 +27,5 @@ Install plugins
 1. [vim-plug](https://github.com/junegunn/vim-plug)
 
 ## plugins
-1. [nerdtree](https://github.com/preservim/nerdtree)
+1. [preservim/vim-markdown](https://github.com/preservim/vim-markdown)
+
