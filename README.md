@@ -1,6 +1,9 @@
 # gvim-config
 My configuration of vim using the vim plugin manager.
 
+## Install Vim/GVim from source
+[Install Vim/GVim from source](./install_vim_gvim_from_source.md)
+
 ## Setup instructions
 
 Install [vim-plug](https://github.com/junegunn/vim-plug)
