@@ -37,3 +37,11 @@ set conceallevel=2
 " - ge command to follow named anchors in 
 " - links of the form file#anchor or just #anchor
 let g:vim_markdown_follow_anchor = 1
+
+" Clipboard register switcher
+" - Switch to clipboard register 
+nnoremap <leader>c :set clipboard=unnamedplus<CR>
+
+" - Swicth to unamed register
+nnoremap <leader>u :set clipboard=""<CR>
+
