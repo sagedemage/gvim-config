@@ -7,6 +7,9 @@ Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
 
+" GVim color scheme
+colorscheme sorbet
+
 " set the map leader to space
 let mapleader = "\<Space>"
 
