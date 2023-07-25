@@ -1,7 +1,8 @@
 call plug#begin()
 
-" Any valid git URL is allowed
-Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+" Vim Markdown
+Plug 'godlygeek/tabular'
+Plug 'preservim/vim-markdown'
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
@@ -26,3 +27,13 @@ syntax on
 " Open File Explorer
 nnoremap <leader>e :Explore<CR>
 
+" Vim Markdown configuration
+" - Disable folding
+let g:vim_markdown_folding_disabled = 1
+
+" - enable conceal
+set conceallevel=2
+
+" - ge command to follow named anchors in 
+" - links of the form file#anchor or just #anchor
+let g:vim_markdown_follow_anchor = 1
