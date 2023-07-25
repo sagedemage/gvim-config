@@ -14,6 +14,7 @@ let mapleader = "\<Space>"
 set tabstop=4
 
 " Syntax higlighiting
+filetype plugin on
 syntax on
 
 " Open File Explorer
