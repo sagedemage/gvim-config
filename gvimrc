@@ -10,6 +10,9 @@ call plug#end()
 " GVim color scheme
 colorscheme sorbet
 
+" Set GVim font
+set guifont=Monospace\ Regular\ 14
+
 " set the map leader to space
 let mapleader = "\<Space>"
 
