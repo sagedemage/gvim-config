@@ -18,6 +18,11 @@ Copy this config to the vim configuration file
 cp gvimrc ~/.gvimrc
 ```
 
+In Windows
+```
+cp gvimrc C:\Users\salsa\_gvimrc
+```
+
 Install plugins
 ```
 :PluginInstall
