@@ -20,7 +20,7 @@ cp gvimrc ~/.gvimrc
 
 In Windows
 ```
-cp windows_gvimrc C:\Users\salsa\_gvimrc
+cp gvimrc C:\Users\salsa\_gvimrc
 ```
 
 Install plugins
