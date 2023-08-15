@@ -15,7 +15,7 @@ cp -v vim ~/.vimrc
 ```
 #### 2.13 In Windows
 ```
-cp gvim/windows_gvimrc C:\Users\salsa\_gvimrc
+cp windows\vimrc C:\Users\salsa\_vimrc
 ```
 
 ### 2.2 Install plugins
