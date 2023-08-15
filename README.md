@@ -1,36 +1,31 @@
-# gvim-config
+# vim-config
 My configuration of vim using the vim plugin manager.
 
-## Install Vim/GVim from source
+## 1. Install Vim/GVim from source
 [Install Vim/GVim from source](./install_vim_gvim_from_source.md)
 
-## Setup instructions
+## 2. Setup instructions
 
 Install [vim-plug](https://github.com/junegunn/vim-plug)
 
-Go to the gvim-config folder
+### 2.1 Copy this config to the vim configuration file
+#### 2.12 In Linux
 ```
-cd gvim-config
+cp -v vim ~/.vimrc
 ```
-
-Copy this config to the vim configuration file
+#### 2.13 In Windows
 ```
-cp gvimrc ~/.gvimrc
-```
-
-In Windows
-```
-cp windows_gvimrc C:\Users\salsa\_gvimrc
+cp gvim/windows_gvimrc C:\Users\salsa\_gvimrc
 ```
 
-Install plugins
+### 2.2 Install plugins
 ```
 :PluginInstall
 ```
 
-## plugin manager
+## 3. plugin manager
 1. [vim-plug](https://github.com/junegunn/vim-plug)
 
-## plugins
+## 4. plugins
 1. [preservim/vim-markdown](https://github.com/preservim/vim-markdown)
 
