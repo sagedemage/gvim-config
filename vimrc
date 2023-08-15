@@ -8,12 +8,6 @@ Plug 'preservim/vim-markdown'
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
 
-" GVim color scheme
-colorscheme sorbet
-
-" Set GVim font
-set guifont=Monospace\ Regular\ 14
-
 " set the map leader to space
 let mapleader = "\<Space>"
 
@@ -47,4 +41,13 @@ nnoremap <leader>c :set clipboard=unnamedplus<CR>
 
 " - Switch to unamed register
 nnoremap <leader>u :set clipboard=""<CR>
+
+if has("gui_running")
+" If GVim is Running
+	" Vim color scheme
+	colorscheme sorbet
+
+	" Set GVim font
+	set guifont=Monospace\ Regular\ 14
+endif
 
