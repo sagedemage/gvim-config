@@ -24,6 +24,9 @@ set tabstop=4
 filetype plugin on
 syntax on
 
+" Enable line numbers
+set number
+
 " Open File Explorer
 nnoremap <leader>e :Explore<CR>
 
